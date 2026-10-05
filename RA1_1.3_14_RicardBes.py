@@ -7,8 +7,8 @@
 # Descripció: Demana el nom i el cognom, cadascun format per una sola paraula sense accents. Construeix un correu en minúscules amb el format nom.cognom@alumnes.cat.
 # Especificacions d'Entrada: Crear un correu electrònic
 
-nom = input("Introdueix el teu nom: ")
+nom = input("Introdueix el teu nom: ").lower()
 
-cognom = input("Introdueix el teu cognom: ")
+cognom = input("Introdueix el teu cognom: ").lower()
 
 print(f"{nom}.{cognom}@institut.cat")
